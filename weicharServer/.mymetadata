@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="weicharServer"
+  id="myeclipse.1363820068355"
+  context-root="/weicharServer"
+  j2ee-spec="5.0"
+  archive="weicharServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
