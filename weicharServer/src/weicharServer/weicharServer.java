@@ -51,7 +51,7 @@ public class weicharServer {
 				buf.append(line);
 			}
 			result = buf.toString();
-			result = new String(result.getBytes("GBK"), "UTF-8");
+			//result = new String(result.getBytes("UTF-8"), "GBK");
 			List lst = new ArrayList();
 			// 创建一个新的字符串
 			StringReader read = new StringReader(result);
@@ -288,7 +288,7 @@ public class weicharServer {
 			}
 		}
 		//if (talk.getContent() != null && talk.getContent().length() > 0) {
-			xmlInfo = new String(outmsg.toString().getBytes("UTF-8"),("GBK"));
+			xmlInfo = new String(outmsg.toString().getBytes("GBK"),"UTF-8");
 			System.out.println(outmsg);
 			bytee = xmlInfo.getBytes();
 			response.setContentLength(bytee.length);
